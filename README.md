@@ -53,7 +53,7 @@ Histogram eşitleme, görüntüdeki piksel yoğunluklarını değiştirerek gör
 python HistogramFilter.py
 ```
 
-### Filtrelerin Görüntü Üzerinden Kıyaslanması:
+### Filtrelerin Değerlendirilmesi:
 | Filtre Türü | Eğitim Çıktısı | Değerlendirme | Test Çıktısı | 
 |------- | --------------------- | --------------------- | ---------------- |
 | Alçak Geçiren Filtre | ![image](https://github.com/ofarukusta/Alzheimer-s-Disease-Classification-Using-Convolutional-Neural-Networks-and-Filtering/assets/110857814/18c19bed-aaa5-483d-bee6-972c75e71384) | Başarılı | 4/4 |
