@@ -27,9 +27,9 @@ Görüntü üzerinde her bir piksel için dikey ve yatay filtreler uygulanarak k
 
 ![image](https://github.com/ofarukusta/Alzheimer-s-Disease-Classification-Using-Convolutional-Neural-Networks-and-Filtering/assets/110857814/dd564511-46b5-40e2-8312-13d4ff2c63c6)
 
-'''
+```
 python highPassFilter.py
-'''
+```
 
 # Median Filtre:
 Median filtresi, bir pikselin değerini, belirli bir pencerenin (örneğin, 3x3 veya 5x5 boyutlu bir pencerenin) medyanı ile değiştirir. Gürültüyü azaltmak için kullanılır ve özellikle salt ve impuls gibi gürültülerin giderilmesinde etkilidir.
