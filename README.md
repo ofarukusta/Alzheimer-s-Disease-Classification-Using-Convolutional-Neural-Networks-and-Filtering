@@ -45,9 +45,9 @@ python MedianFilter.py
 ## Histogram Equalized
 Histogram eşitleme, bir görüntünün kontrastını artırmak ve genellikle görüntünün daha iyi anlaşılabilir olmasını sağlamak için kullanılır. Görüntüdeki piksel yoğunluklarının dağılımını değiştirerek görüntünün histogramını genişletir.
 Histogram eşitleme, görüntüdeki piksel yoğunluklarını değiştirerek görüntü histogramının eşitlenmesini sağlar.
-Öncelikle, görüntünün histogramı hesaplanır ve piksel değerlerine göre olasılıkları elde edilir.
-Ardından, kümülatif dağılım fonksiyonu oluşturulur. Bu, her bir piksel değerinin kümülatif olasılık yoğunluğunu hesaplar.
-Son adımda, bu kümülatif fonksiyon kullanılarak görüntüdeki piksel değerleri eşitlenir. Bu, daha geniş bir renk aralığına sahip daha kontrastlı bir görüntü elde etmeyi amaçlar.
+*Öncelikle, görüntünün histogramı hesaplanır ve piksel değerlerine göre olasılıkları elde edilir.
+*Ardından, kümülatif dağılım fonksiyonu oluşturulur. Bu, her bir piksel değerinin kümülatif olasılık yoğunluğunu hesaplar.
+*Son adımda, bu kümülatif fonksiyon kullanılarak görüntüdeki piksel değerleri eşitlenir. Bu, daha geniş bir renk aralığına sahip daha kontrastlı bir görüntü elde etmeyi amaçlar.
 
 ![image](https://github.com/ofarukusta/Alzheimer-s-Disease-Classification-Using-Convolutional-Neural-Networks-and-Filtering/assets/110857814/72c7c70d-b6b3-44f2-a161-bb50b93c1b41)
 
