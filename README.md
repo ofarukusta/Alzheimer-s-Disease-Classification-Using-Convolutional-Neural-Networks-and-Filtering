@@ -12,9 +12,9 @@ Alçak geçiren filtre, frekans domenindeki düşük frekanslı bileşenleri kor
 Görüntüdeki her bir piksel, komşu piksellerin ağırlıklı ortalaması ile değiştirilir.
 Bu ağırlıklar, bir filtre çekirdeği (kernel) ile belirlenir. Çekirdek, genellikle aynı boyutlu bir matristir ve bu matrisin merkezi (genellikle köşegen) önemli ağırlıklar içerir.
 Görüntü üzerinde kayan pencere (sliding window) şeklinde ilerlerken, her piksel için çekirdek uygulanır ve çıktı hesaplanır.
-'''
+```
 python lowPassFilter.py
-'''
+```
 
 # Yüksek Geçiren Filtre(Pretwitt):
 
@@ -32,9 +32,9 @@ Median filtresi, bir pikselin değerini, belirli bir pencerenin (örneğin, 3x3 
 Median filtresi, piksel değerlerini sıralar ve ortanca (median) değeri alır.
 Görüntü üzerinde her bir piksel için, belirlenen pencere içindeki pikseller sıralanır ve ortanca değer pikselin yeni değeri olarak atanır.
 ![image](https://github.com/ofarukusta/Alzheimer-s-Disease-Classification-Using-Convolutional-Neural-Networks-and-Filtering/assets/110857814/b5b8d396-2d49-4074-89dd-fbe1affdc0db)
-'''
+```
 python MedianFilter.py
-'''
+```
 
 # Histogram Equalized
 Histogram eşitleme, bir görüntünün kontrastını artırmak ve genellikle görüntünün daha iyi anlaşılabilir olmasını sağlamak için kullanılır. Görüntüdeki piksel yoğunluklarının dağılımını değiştirerek görüntünün histogramını genişletir.
@@ -43,9 +43,9 @@ Histogram eşitleme, görüntüdeki piksel yoğunluklarını değiştirerek gör
 Ardından, kümülatif dağılım fonksiyonu oluşturulur. Bu, her bir piksel değerinin kümülatif olasılık yoğunluğunu hesaplar.
 Son adımda, bu kümülatif fonksiyon kullanılarak görüntüdeki piksel değerleri eşitlenir. Bu, daha geniş bir renk aralığına sahip daha kontrastlı bir görüntü elde etmeyi amaçlar.
 ![image](https://github.com/ofarukusta/Alzheimer-s-Disease-Classification-Using-Convolutional-Neural-Networks-and-Filtering/assets/110857814/72c7c70d-b6b3-44f2-a161-bb50b93c1b41)
-'''
+```
 python HistogramFilter.py
-'''
+```
 
 # Filtrelerin Görüntü Üzerinden Kıyaslanması:
 ![image](https://github.com/ofarukusta/Alzheimer-s-Disease-Classification-Using-Convolutional-Neural-Networks-and-Filtering/assets/110857814/bd5a9af5-db0f-437b-8051-1c028374b77d)
@@ -55,8 +55,8 @@ python HistogramFilter.py
 ![image](https://github.com/ofarukusta/Alzheimer-s-Disease-Classification-Using-Convolutional-Neural-Networks-and-Filtering/assets/110857814/f3037c05-e9f5-4bf3-8f78-b059a1f3665e)
 
 
-'''
+```
 Python proje.py
-'''
+```
 
 
